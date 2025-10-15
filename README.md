@@ -81,3 +81,10 @@ These steps outline creating, testing, and publishing via the Creator Hub UI.
 
 
 ---
+
+## Screenshots
+
+```md
+![Echoing Library - Overview](preview.jpg)
+
+```
