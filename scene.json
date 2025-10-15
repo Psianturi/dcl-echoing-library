@@ -1,0 +1,61 @@
+{
+  "ecs7": true,
+  "runtimeVersion": "7",
+  "display": {
+    "title": "The Echoing Library",
+    "description": "A haunted library where forgotten memories echo as ghostly whispers. Solve the mystery by finding three hidden books.",
+    "favicon": "favicon_asset",
+    "navmapThumbnail": ""
+  },
+  "owner": "",
+  "contact": {
+    "name": "SDK",
+    "email": ""
+  },
+  "main": "bin/index.js",
+  "tags": [],
+  "scene": {
+    "parcels": [
+      "0,0"
+    ],
+    "base": "0,0"
+  },
+  "spawnPoints": [
+    {
+      "name": "spawn1",
+      "default": true,
+      "position": {
+        "x": [
+          2,
+          2
+        ],
+        "y": [
+          0,
+          0
+        ],
+        "z": [
+          2,
+          2
+        ]
+      },
+      "cameraTarget": {
+        "x": 0,
+        "y": 1,
+        "z": 0
+      }
+    }
+  ],
+  "requiredPermissions": [
+    "ALLOW_TO_TRIGGER_AVATAR_EMOTE",
+    "ALLOW_TO_MOVE_PLAYER_INSIDE_SCENE"
+  ],
+  "featureToggles": {
+    "voiceChat": "enabled",
+    "portableExperiences": "enabled"
+  },
+  "skyboxConfig": {},
+  "source": {
+    "origin": "creator-hub",
+    "projectId": "8f47e1d9-bcbf-4b12-b682-70d490604222"
+  }
+}
